@@ -3,15 +3,11 @@ import { NavLink } from 'react-router-dom';
 import logo from '../Images/logo.jpg';
 import './MainNavbarStyle.css';
 
-
-
-
-
 const MainNavbar=()=>{
     return (
       <>
         <div>
-          <nav className="navbar navbar-expand-lg navbar-light bg-info">
+          <nav className="navbar navbar-expand-lg navbar-light bg-info mb-3">
             <div className="container-fluid">
               <NavLink to="/">
                 <img 

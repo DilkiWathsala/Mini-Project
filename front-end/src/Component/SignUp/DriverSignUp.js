@@ -2,7 +2,7 @@ import React from 'react';
 import loginImage from '../Images/loginImage.jpg'
 import { NavLink } from 'react-router-dom'
 
-const ParentSignUp=()=>{
+const DriverSignUp=()=>{
     return(
         <>
             <div className="container my-5">
@@ -32,7 +32,7 @@ const ParentSignUp=()=>{
                         </div>
                         <div className="mb-2">
                             <label htlmfor="inputPhoneNumber" className="col-form-label mx-1">
-                                Telephone No:
+                                Mobile No:
                             </label>
                             <input
                                 type="phone"
@@ -53,34 +53,45 @@ const ParentSignUp=()=>{
                             />
                         </div>
                         <div className="mb-2">
-                            <label htlmfor="inputStudentName" className="col-form-label mx-1">
-                                Student's Name:
+                            <label htlmfor="inputNICNumber" className="col-form-label mx-1">
+                                NIC No:
                             </label>
                             <input
                                 type="text"
-                                placeholder="Enter Your Student's Name"
+                                placeholder="Enter Your National Identity Card Number"
                                 className="form-control col-md-6"
-                                id="inputStudentName"
+                                id="inputNICNumber"
                             />
                         </div>
                         <div className="mb-2">
-                            <label htlmfor="inputStudentSchool" className="col-form-label mx-1">
-                                Student's School:
+                            <label htlmfor="inputDLNumber" className="col-form-label mx-1">
+                                Driving Lisence No:
                             </label>
                             <input
                                 type="text"
-                                placeholder="Enter Your Student's School"
+                                placeholder="Enter Your Driving Lisence Number"
                                 className="form-control col-md-6"
-                                id="inputStudentSchool"
+                                id="inputDLNumber"
                             />
                         </div>
                         <div className="mb-2">
                             <label htlmfor="inputDistrict" className="col-form-label mx-1">
-                                Living District:
+                                Hiring District:
                             </label>
                             <input
                                 type="text"
-                                placeholder="Enter Your Living District"
+                                placeholder="Enter the Districts Where You Provide Transportation"
+                                className="form-control col-md-6"
+                                id="inputDistrict"
+                            />
+                        </div>
+                        <div className="mb-2">
+                            <label htlmfor="inputDistrict" className="col-form-label mx-1">
+                                Schools:
+                            </label>
+                            <input
+                                type="text"
+                                placeholder="Enter the Schools Where You Provide Transportation"
                                 className="form-control col-md-6"
                                 id="inputDistrict"
                             />
@@ -108,7 +119,7 @@ const ParentSignUp=()=>{
                             />
                         </div>
                         
-                        <NavLink to='/message'>
+                        <NavLink to='/student-update'>
                             <button type="submit" className="btn btn-primary col-xs-12 col-md-3 mb-5">
                                 SignUp
                             </button>
@@ -125,4 +136,4 @@ const ParentSignUp=()=>{
         </>
     )
 }
-export default ParentSignUp;
+export default DriverSignUp;

@@ -4,7 +4,6 @@ import Card from './Card';
 import Data from './Apidata';
 
 
-
 const Home=()=>{
     return(
         <>
