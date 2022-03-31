@@ -6,6 +6,16 @@ footer{
     padding: .5em;
 }
 
+.card-body{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* .card{
+    border:none;
+} */
+
 .line{
     width: 30%;
 }
