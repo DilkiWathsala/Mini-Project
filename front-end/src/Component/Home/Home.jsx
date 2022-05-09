@@ -10,26 +10,35 @@ const Home = () => {
     <div>
       <MainNavbar />
       <h1 className="text-center text-info my-5">
-        {/* warning , success , danger , light , dark , primary , info , secondary */}
-        {" "}
-        <strong><em>SELECT THE MOST SUITABLE SCHOOL VAN FOR YOUR CHILD</em> </strong>{" "}
+        <strong>
+          <em>
+            SELECT THE MOST SUITABLE SCHOOL VAN FOR YOUR CHILD
+          </em>
+        </strong>
       </h1>
 
-
-
-      <nav class="navbar navbar-light bg-light justify-content-between">
-  
-  <form className="form-inline">
-  <input className="form-control col-md-6 mx-5" type="search" placeholder="Search by Your Living District" aria-label="Search"/>
-    <button className="btn btn-outline-secondary my-2 mx-5" type="submit">Search</button>
-    <input className="form-control col-md-6 mx-5" type="search" placeholder="Search by the Student's School" aria-label="Search"/>
-    <button className="btn btn-outline-secondary my-2 mx-5" type="submit">Search</button>
-  </form>
-</nav>
-
-
-
-      
+      <nav className="navbar navbar-light bg-light justify-content-between">
+        <form className="form-inline">
+          <input
+            className="form-control col-md-6 mx-5"
+            type="search"
+            placeholder="Search by Your Living District"
+            aria-label="Search"
+          />
+          <button className="btn btn-outline-secondary my-2 mx-5" type="submit">
+            Search
+          </button>
+          <input
+            className="form-control col-md-6 mx-5"
+            type="search"
+            placeholder="Search by the Student's School"
+            aria-label="Search"
+          />
+          <button className="btn btn-outline-secondary my-2 mx-5" type="submit">
+            Search
+          </button>
+        </form>
+      </nav>
 
       {/* card section */}
 

@@ -1,0 +1,29 @@
+{
+    "parent" :[
+        {
+            "Name":"dilki",
+            "tele":"0771234567",
+            "address":"home",
+            "email":"dil@gmail.com",
+            "std_name":"dimuthu",
+            "std_school":"royal",
+            "distict":"gampaha",
+            "user_name":"dikli",
+            "password":"1234"
+        }
+    ],
+    "driver" :[
+        {
+            "Name":"dilki",
+            "tele":"0771234567",
+            "address":"home",
+            "email":"dil@gmail.com",
+            "nic_no":"dimuthu",
+            "licence_no":"4567",
+            "school":"royal",
+            "distict":"gampaha",
+            "user_name":"dikli",
+            "password":"1234"
+        }
+    ]
+}

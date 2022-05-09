@@ -2,6 +2,7 @@ import React from "react";
 import loginImage from "../Images/loginImage.jpg";
 import { NavLink } from "react-router-dom";
 import MainNavbar from "../Header/MainNavbar";
+
 const ParentSignUp = () => {
   return (
     <div className="bottom1">
@@ -113,7 +114,7 @@ const ParentSignUp = () => {
               />
             </div>
 
-            <NavLink to="/message">
+            <NavLink to="/parent-message">
               <button
                 type="submit"
                 className="btn btn-primary col-xs-12 col-md-3 mb-5"

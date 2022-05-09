@@ -6,8 +6,8 @@ const ParentFeedback = () => {
   return (
     <div>
       <ParentNavbar />
-      <h2 className="text-center text-info mt-5 mb-4"><strong><em>Your Feedback</em></strong>  </h2>
-{/* warning , success , danger , light , dark , primary , info , secondary */}
+      <h2 className="text-center text-info mt-5 mb-4"><strong><em>Your Feedback</em></strong></h2>
+
       <form className="container bg-light col-md-6">
         <div className="form-group">
           <label for="exampleFormControlInput1" className="my-2">

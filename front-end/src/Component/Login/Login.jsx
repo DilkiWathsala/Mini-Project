@@ -1,17 +1,23 @@
 import React from "react";
 import "./LoginStyle.css";
+import { useState,useEffect } from 'react';
 import loginImage from "../Images/loginImage.jpg";
 import { NavLink } from "react-router-dom";
 import MainNavbar from "../Header/MainNavbar";
 
 const Login = () => {
+  const [login,setlogin] = useState(null);
+
+  useEffect(()=>{
+    
+  })
 
   return (
     <div>
         <MainNavbar />
         <h2 className="text-center text-info mt-5 mb-4"><strong><em>Login Here</em></strong>  </h2>
       <div className="container bg-light"> 
-        {/* warning , success , danger , light , dark , primary , info , secondary */}
+        
         <form className="row">
           <div className="col-xs-12 col-md-6">
             <div className="mb-3">

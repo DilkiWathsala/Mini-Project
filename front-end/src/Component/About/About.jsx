@@ -7,12 +7,8 @@ const About = () => {
   return (
     <div className="bottom">
       <MainNavbar />
-      <div className="row">
-        <div class="carousel-inner">
-          <div class="carousel-item active col-xs-12 col-md-6">
-            <img src={background} class="d-block w-100" alt="..." />
-          </div>
-        </div>
+      <div>
+        <img src={background} class="d-block w-100" alt="..." />
       </div>
 
       <div className="mx-5 text-justify">

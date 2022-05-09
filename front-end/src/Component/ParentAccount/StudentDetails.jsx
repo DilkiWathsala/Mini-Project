@@ -8,7 +8,7 @@ const StudentDetails = () => {
       <div className="container my-5 col-md-6 row">
       <h3 className="text-center text-info my-4 "><strong><em> Daily Updates </em></strong></h3>
       <table className="table table-hover table-bordered">
-  <thead>
+  <thead className="text-center">
     <tr>
       <th scope="col">Date</th>
       <th scope="col">Morning</th>
@@ -39,8 +39,8 @@ const StudentDetails = () => {
 
 <div className="container my-5 col-md-6 row">
       <h3 className="text-center text-info my-4 "><strong><em> Payments  </em></strong> </h3>
-      <table class="table table-hover table-bordered">
-  <thead>
+      <table class="table table-hover table-bordered ">
+  <thead className="text-center">
     <tr>
       <th scope="col">Month</th>
       <th scope="col">Amount of Charge</th>
